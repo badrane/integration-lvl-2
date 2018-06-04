@@ -1,44 +1,349 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>Title</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  </head>
-  <body>
-    <!-- header -->
-      <header>
-        <!-- contact -->
-        <!-- fin contact -->
-        <!-- menu nav -->
-        <!-- fin menu nav -->
-      </header>
-      <!-- fin header -->
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 
-      <!-- main -->
-      <main>
-        <!-- section 1 banniere -->
-        <!-- fin section 1 -->
-        <!-- section 2  -->
-        <!-- fin section 2 -->
-        <!-- section 3 -->
-        <!-- fin section 3 -->
-        <!-- section 4 -->
-        <!-- fin section 4 -->
-        <!-- debut footer -->
-        <!-- fin footer -->
-      </main>
-      <!--  -->
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
 
-      <!-- fin main -->
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+<body>
+  <!-- header -->
+  <header>
+    <!-- contact -->
+    <contact>
+      <div class="container text-muted px-0">
+        <div class="row justify-content-between mx-0 py-2">
+          <div>
+            <p class="mb-0">
+              <i class="far fa-envelope Bleu-Azurin"></i> Contact@exemple.com |
+              <i class="fas fa-phone Bleu-Azurin"></i> +1 5564 654665 55</p>
+          </div>
+          <div>
+            <p class="mb-0">
+              <i class="fab fa-twitter"></i> |
+              <i class="fab fa-facebook    "></i> |
+              <i class="fab fa-instagram    "></i> |
+              <i class="fab fa-google-plus    "></i>
+              |
+              <b>in</b>
+            </p>
+          </div>
+        </div>
+      </div>
+      <hr class="my-0">
+    </contact>
+    <!-- fin contact -->
+
+    <!-- menu nav -->
+    <div class="container px-0 text-muted">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light px-0 d-flex justify-content-between ">
+        <div class="">
+          <a class="navbar-brand disabled " href="#">
+            <h1>
+              <span class="Bleu-foncé">REVE</span>
+              <span class="Bleu-Azurin">AL</span>
+            </h1>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <div class="taille-div-nav collapse navbar-collapse  px-0" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link Bleu-Azurin" href="#">
+                <span class="Bleu-Azurin">
+                  <b>Home</b>
+                </span>
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <b>Abnout Us</b>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <b>Services</b>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <b>Portfolio</b>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <b>Team</b>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                <b>Dropdown</b>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <b>contact</b>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- fin menu nav -->
+
+  </header>
+  <!-- fin header -->
+
+  <!-- main -->
+  <main>
+    <!-- section 1 banniere -->
+    <section class="back-section1 container-fluid text-center  ">
+      <div class="rgba-image d-flex justify-content-center align-items-center flex-column px-0">
+        <div class="container d-flex justify-content-center align-items-center flex-column my-5">
+          <h1 class="taille-bannieres ">
+            <b class="Bleu-foncé"> Making
+              <span class="Bleu-Azurin">
+                <u> your ideas</u>
+              </span>
+              <br>happen!</b>
+          </h1>
+          <div class="row my-5">
+            <div class="mx-2 div-boutton1 py-2">
+              <a href="" class="text-light">Get started</a>
+            </div>
+            <div class="mx-2 div-boutton2 py-2">
+              <a href="" class="text-light">Our projects</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- fin section 1 -->
+
+    <!-- section 2  -->
+    <section class="container py-5 text-muted">
+      <div class="row justify-content-between">
+        <div class="col-sm-5">
+          <img src="img/about-img.jpg" alt="" class="taille-image-article">
+        </div>
+        <div class="col-sm-6">
+          <h1 class="Bleu-foncé"> Lorem ipsum dolor sit amet, consectetur adipiscing</h1>
+          <p>
+            <i> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error consectetur ipsam asperiores incidunt eum totam
+              aspernatur,
+            </i>
+          </p>
+          <p>
+            <i class="far fa-check-circle Bleu-Azurin"></i> Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+          <p>
+            <i class="far fa-check-circle Bleu-Azurin"></i> Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+          <p>
+            <i class="far fa-check-circle Bleu-Azurin"></i> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, ipsum? Quos ipsa alias dolorem, quo libero
+            quidem fuga atque provident odio eum minus architecto doloribus minima deleniti debitis nobis repellendus. </p>
+        </div>
+      </div>
+    </section>
+    <!-- fin section 2 -->
+
+    <!-- section 3 -->
+    <section class="container my-5">
+      <article>
+        <div>
+          <h1 class="Bleu-foncé">SERVICES</h1>
+          <hr class="ml-0 style-hr">
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore neque quo facere quisquam ipsum alias, archite
+          Tempore neque quo facere quisquam ipsum alias, archite Tempore neque quo facere quisquam ipsum alias, archite quae
+          eligendi aspernatur?</p>
+      </article>
+      <article class="my-6 row justify-content-between">
+        <div class="col-sm-6 d-flex style-div-article mt-3">
+          <div class="mr-2">
+            <i class="fas fa-chart-bar taille-icones Bleu-Azurin"></i>
+          </div>
+          <div>
+            <h1>Lorem Ipsum</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore neque quo facere quisquam ipsum alias, architect
+              Tempore neque quo facere quisquam ipsum alias, archite Tempore neque quo facere quisquam ipsum alias, archite
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 d-flex style-div-article mt-3">
+          <div class="mr-2">
+            <i class="fas fa-chart-bar taille-icones Bleu-Azurin"></i>
+          </div>
+          <div>
+            <h1>Lorem Ipsum</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore neque quo facere quisquam ipsum alias, architecto
+              Tempore neque quo facere quisquam ipsum alias, archite Tempore neque quo facere quisquam ipsum alias, archite
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 d-flex style-div-article mt-3">
+          <div class="mr-2">
+            <i class="fas fa-chart-bar taille-icones Bleu-Azurin"></i>
+          </div>
+          <div>
+            <h1>Lorem Ipsum</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore neque quo facere quisquam ipsum alias, architecto
+              Tempore neque quo facere quisquam ipsum alias, archite Tempore neque quo facere quisquam ipsum alias, archite
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-6 d-flex style-div-article mt-3">
+          <div class="mr-2">
+            <i class="fas fa-chart-bar taille-icones Bleu-Azurin"></i>
+          </div>
+          <div>
+            <h1>Lorem Ipsum</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore neque quo facere quisquam ipsum alias, architecto
+              Tempore neque quo facere quisquam ipsum alias, archite Tempore neque quo facere quisquam ipsum alias, archite
+
+            </p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- fin section 3 -->
+
+    <!-- section 4 -->
+    <section class="container">
+      <article>
+        <div>
+          <h1 class="Bleu-foncé">TESTIMONIALS</h1>
+          <hr class="ml-0 style-hr">
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore neque quo facere quisquam ipsum alias, archite
+          Tempore neque quo facere quisquam ipsum alias, archite Tempore neque quo facere quisquam ipsum alias, archite quae
+          eligendi aspernatur?</p>
+      </article>
+
+      <div id="carouselExampleIndicators" class="carousel slide my-5" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active cible"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1" class="cible"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active py-5">
+            <div class="row justify-content-around">
+              <div class="col-sm-3 text-center bordure-div-slider my-5  ">
+                <p class="pt-5">
+                  <img src="img/quote-sign-left.png" alt=""> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae velit illum recusandae deleniti unde esse
+                  accusantium libero, cumque omnis fugit eligendi amet corporis dolores sed? Nostrum aperiam reiciendis accusantium
+                  dolore .
+                  <img src="img/quote-sign-right.png" alt="">
+                </p>
+                <div class="pb-5">
+                  <img src="img/testimonial-1.jpg" alt="" class="rounded-circle image-slider">
+                </div>
+              </div>
+              <div class="col-sm-3 text-center bordure-div-slider my-5  ">
+                <p class="pt-5">
+                  <img src="img/quote-sign-left.png" alt=""> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae velit illum recusandae deleniti unde esse
+                  accusantium libero, cumque omnis fugit eligendi amet corporis dolores sed? Nostrum aperiam reiciendis accusantium
+                  dolore .
+                  <img src="img/quote-sign-right.png" alt="">
+                </p>
+                <div class="pb-5">
+                  <img src="img/testimonial-2.jpg" alt="" class="rounded-circle image-slider">
+                </div>
+              </div>
+              <div class="col-sm-3 text-center bordure-div-slider my-5 ">
+                <p class="pt-5">
+                  <img src="img/quote-sign-left.png" alt=""> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae velit illum recusandae deleniti unde esse
+                  accusantium libero, cumque omnis fugit eligendi amet corporis dolores sed? Nostrum aperiam reiciendis accusantium
+                  dolore .
+                  <img src="img/quote-sign-right.png" alt="">
+                </p>
+                <div class="pb-5">
+                  <img src="img/testimonial-3.jpg" alt="" class="rounded-circle image-slider">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item py-5">
+              <div class="row justify-content-around">
+                  <div class="col-sm-3 text-center bordure-div-slider my-5  ">
+                    <p class="pt-5">
+                      <img src="img/quote-sign-left.png" alt=""> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae velit illum recusandae deleniti unde esse
+                      accusantium libero, cumque omnis fugit eligendi amet corporis dolores sed? Nostrum aperiam reiciendis accusantium
+                      dolore .
+                      <img src="img/quote-sign-right.png" alt="">
+                    </p>
+                    <div class="pb-5">
+                      <img src="img/testimonial-4.jpg" alt="" class="rounded-circle image-slider">
+                    </div>
+                  </div>
+                  <div class="col-sm-3 text-center bordure-div-slider my-5  ">
+                    <p class="pt-5">
+                      <img src="img/quote-sign-left.png" alt=""> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae velit illum recusandae deleniti unde esse
+                      accusantium libero, cumque omnis fugit eligendi amet corporis dolores sed? Nostrum aperiam reiciendis accusantium
+                      dolore .
+                      <img src="img/quote-sign-right.png" alt="">
+                    </p>
+                    <div class="pb-5">
+                      <img src="img/testimonial-5.jpg" alt="" class="rounded-circle image-slider">
+                    </div>
+                  </div>
+                  <div class="col-sm-3 text-center bordure-div-slider my-5 ">
+                    <p class="pt-5">
+                      <img src="img/quote-sign-left.png" alt=""> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae velit illum recusandae deleniti unde esse
+                      accusantium libero, cumque omnis fugit eligendi amet corporis dolores sed? Nostrum aperiam reiciendis accusantium
+                      dolore .
+                      <img src="img/quote-sign-right.png" alt="">
+                    </p>
+                    <div class="pb-5">
+                      <img src="img/testimonial-1.jpg" alt="" class="rounded-circle image-slider">
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+    </section>
+    <!-- fin section 4 -->
+
+    <section>
+      
+    </section>
+
+
+    <!-- debut footer -->
+    <!-- fin footer -->
+  </main>
+  <!--  -->
+
+  <!-- fin main -->
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

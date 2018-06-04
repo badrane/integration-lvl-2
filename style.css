@@ -1,0 +1,100 @@
+/* debut header */
+
+/* contact */
+
+.Bleu-Azurin{
+    color:#50d8af;
+}
+.Bleu-foncé{
+    color: #0c2e8a;
+} 
+
+/* menu nav */
+
+.taille-div-nav{
+   max-width: 50%;
+}
+
+/* fin header */
+
+/* debut main */
+
+/* section 1 */
+
+.back-section1{
+    background-image: url(img/3.jpg);
+    height: 700px;
+}
+
+.rgba-image{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 700px;
+}
+
+.taille-bannieres{
+    font-size: 70px;
+}
+
+.div-boutton1{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #0c2e8a;
+}
+
+.div-boutton2{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #50d8af;
+}
+
+/* fin section 1 */
+
+/* debut section2 */
+
+.taille-image-article{
+    width: 500px;
+    height: 320px;
+}
+
+/* fin section 2 */
+
+/* debut section 3 */
+
+.style-hr{
+    border:1px solid #50d8af;
+    color: #50d8af;
+    width:60px;
+}
+
+.taille-icones{
+    font-size: 450%;
+}
+
+.style-div-article{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1)
+}
+/* fin section 3 */
+
+/* debut section 4 */
+.bordure-div-slider{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image-slider{
+    width: 100px;
+    height: 100px;
+}
+
+.carousel-indicators .active{
+    background-color: #50d8af !important;
+}
+
+.cible{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    background-color: #DDDDDD !important;
+}
