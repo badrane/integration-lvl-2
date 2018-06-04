@@ -1,3 +1,7 @@
+body{
+    font-family: "Raleway", sans-serif;
+}
+
 /* debut header */
 
 /* contact */
@@ -12,7 +16,7 @@
 /* menu nav */
 
 .taille-div-nav{
-   max-width: 50%;
+   max-width: 55%;
 }
 
 /* fin header */
@@ -98,3 +102,44 @@
     border-radius: 50% !important;
     background-color: #DDDDDD !important;
 }
+
+/* fin section 4 */
+
+/* debut section 5 */
+.back-color{
+    background-color: #0c2e8a;
+}
+
+.div-boutton-s5{
+    border: 3px solid #fff;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.div-coordonnée{
+    height: 200px;
+}
+
+.div-bordure{
+    border-right: 1px solid;
+    border-left: 1px solid;
+}
+
+.icone-size-s5{
+    font-size: 200%;
+}
+
+.style-form{
+    background-color: #fff;
+}
+
+.form-back-button{
+    background-color: #50d8af;
+}
+
+/* debut footer */
+
+.footer-back{
+    background-color: #F2F5F8;
+}
+
